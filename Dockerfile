@@ -1,6 +1,6 @@
 FROM indexyz/docker-php-7
 
-MAINTAINER Indexyz <jiduye@gmail.com>
+MAINTAINER Indexyz <docker@mail.abab.pw>
 
 RUN rm -f /start.sh
 
@@ -10,7 +10,7 @@ RUN yum install git zip unzip -y &&\
     rm -rf /data/www && \
     mkdir /data/www && \
     cd /data && \
-    git clone -b new_master https://github.com/esdeathlove/ss-panel-v3-mod.git www && \
+    git clone -b new_master https://github.com/sikijiang/ss-panel-v3-mod_Uim.git www && \
     cd /data/www && \
     chmod -R 777 * && \
     cp /data/www/config/.config.php.example /data/www/config/.config.php && \
