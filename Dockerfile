@@ -22,4 +22,4 @@ RUN yum install git zip unzip -y &&\
     chmod +x /start.sh
 
 WORKDIR /data/www
-EXPOSE 80
+EXPOSE 888
