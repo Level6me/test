@@ -1,6 +1,6 @@
 FROM indexyz/docker-php-7
 
-MAINTAINER Indexyz <docker@mail.abab.pw>
+MAINTAINER Indexyz <jiduye@gmail.com>
 
 RUN rm -f /start.sh
 
